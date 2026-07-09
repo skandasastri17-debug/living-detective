@@ -130,7 +130,7 @@ investigation/accusation ── four 25-point pillars (weapon link, placement,
               public town facts (marriages, households, workplaces) among
               case-connected people — never the whole town.
 
-world/difficulty ── presets (Rookie/Detective/Hard-Boiled; internal ids stay
+world/difficulty ── presets (Rookie/Detective/Cold Case; internal ids stay
               rookie/detective/inspector for save compatibility) stored on the world:
               seed + difficulty = identical case. Knobs are honest sim
               parameters only — camera density multiplier, memory-decay

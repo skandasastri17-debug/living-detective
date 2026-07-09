@@ -54,7 +54,7 @@ export const DIFFICULTIES: Record<DifficultyId, DifficultyDef> = {
   },
   inspector: {
     id: "inspector",
-    label: "Hard-Boiled",
+    label: "Cold Case",
     blurb: "Sparse cameras, fading memories, a careful killer, cagey witnesses.",
     cameraChanceMul: 0.55,
     memoryKeepBonus: -0.05,
