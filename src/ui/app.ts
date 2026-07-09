@@ -21,7 +21,6 @@ import { AUTOSAVE_SLOT, SLOTS, listSaves, loadGame, migrateLegacySaves, saveGame
 import { GUEST_PROFILE, activeProfile, currentProfileKey, reconcileSessionOnBoot, signIn, signOut } from "../game/profile";
 import { fmtTimeLong } from "../core/time";
 import { fullName, buildingById } from "../world/types";
-import { randomSeedPhrase } from "../core/rng";
 import { DEFAULT_DIFFICULTY, DIFFICULTIES, type DifficultyId } from "../world/difficulty";
 import { loadSettings, updateSettings } from "./settings";
 import { log } from "../core/log";
@@ -93,7 +92,7 @@ export class App {
   private showMenu(): void {
     this.game = null;
     clear(this.root);
-    const seedInput = el("input", { type: "text", placeholder: `Seed (blank = random) e.g. ${randomSeedPhrase()}` });
+    const seedInput = el("input", { type: "text", placeholder: "Leave blank for a random city, or type any word or phrase as your seed" });
     // Difficulty picker.
     const diffRow = el("div");
     diffRow.style.cssText = "display:grid;grid-template-columns:repeat(3,1fr);gap:6px;";
