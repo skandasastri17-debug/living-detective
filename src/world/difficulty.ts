@@ -44,7 +44,7 @@ export const DIFFICULTIES: Record<DifficultyId, DifficultyDef> = {
   },
   detective: {
     id: "detective",
-    label: "Detective",
+    label: "Inspector",
     blurb: "The intended experience. The town as it is.",
     cameraChanceMul: 1,
     memoryKeepBonus: 0,
@@ -54,7 +54,7 @@ export const DIFFICULTIES: Record<DifficultyId, DifficultyDef> = {
   },
   inspector: {
     id: "inspector",
-    label: "Cold Case",
+    label: "Detective",
     blurb: "Sparse cameras, fading memories, a careful killer, cagey witnesses.",
     cameraChanceMul: 0.55,
     memoryKeepBonus: -0.05,

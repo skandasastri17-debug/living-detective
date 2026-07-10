@@ -23,8 +23,8 @@ npm run build      # type-check + production bundle
 ## How to play
 
 1. **Generate a city.** Enter a seed (or leave blank), pick a difficulty —
-   Rookie (more cameras, sharper memories, a sloppier killer), Detective, or
-   Cold Case (sparse cameras, fading memories, a careful killer, cagey
+   Rookie (more cameras, sharper memories, a sloppier killer), Inspector, or
+   Detective (sparse cameras, fading memories, a careful killer, cagey
    witnesses). The simulation runs a full week of city life, tension builds,
    and someone is murdered and found. Seed + difficulty always reproduces
    the identical case.
